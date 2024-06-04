@@ -1,0 +1,18 @@
+.nav {
+    color: $white;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 40px 0px 45px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 35px;
+}
+
+// .nav-main {
+//     background-color: transparent;
+// }
