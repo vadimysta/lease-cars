@@ -28,7 +28,7 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 15px;
 }
 
 body {
@@ -80,8 +80,16 @@ body {
   gap: 35px;
 }
 
+.nav-main {
+  background-color: green;
+}
+
 .header {
   background-color: rgb(21, 21, 21);
+}
+
+.header-main {
+  background-color: transparent;
 }
 
 .footer-inner {
@@ -161,4 +169,32 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 40px;
+}
+
+.top {
+  padding: 152px 0px 95px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.top-title {
+  font-size: 96px;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+
+.top-link {
+  font-size: 36px;
+  font-weight: 700;
+  background-color: rgb(21, 21, 21);
+  padding: 23px 187px;
+}
+
+.swiper-slide {
+  background-image: url("./../img/top.jpeg");
+  height: 100vh;
+}
+
+.swiper-wrapper {
+  background: rgba(21, 21, 21, 0.3);
 }/*# sourceMappingURL=index.css.map */
