@@ -1,0 +1,25 @@
+.important-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.important-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    max-width: 580px;
+    margin: 0 auto 50px;
+}
+
+.important-item {
+    max-width: 270px;
+}
+
+.important-list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.important-img {
+    margin-bottom: 20px;
+}
