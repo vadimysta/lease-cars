@@ -376,4 +376,31 @@ body {
 
 .does-text-item {
   max-width: 270px;
+}
+
+.video-subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.videos {
+  background-image: url("./../img/video.jpeg");
+  max-width: 1000px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.video {
+  max-width: 1000px;
+  margin: 0 auto 150px;
 }/*# sourceMappingURL=index.css.map */
