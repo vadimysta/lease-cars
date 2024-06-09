@@ -1,0 +1,54 @@
+.does-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.does-title {
+    margin-bottom: 50px;
+}
+
+.does-subtitle {
+    color: $black;
+    font-size: 24px;
+    font-weight: 700; 
+    margin: 50px 0 50px;  
+}
+
+.how-does-inner {
+    max-width: 594px;
+    margin: 0 auto;
+}
+
+.does-list {
+    margin-bottom: 70px;
+    counter-reset: myCounter;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.does-item::before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: inline-block;
+    background-color: $blue;
+    color: $white;
+    font-size: 48px;
+    font-weight: 700;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.does-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.does-text-item {
+    max-width: 270px;
+}

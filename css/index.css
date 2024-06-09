@@ -3,8 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
   border: none;
+  list-style: none;
   background: none;
   text-decoration: none;
 }
@@ -304,4 +304,76 @@ body {
 
 .lease-img {
   margin-bottom: 30px;
+}
+
+.does-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.does-title {
+  margin-bottom: 50px;
+}
+
+.does-subtitle {
+  color: rgb(21, 21, 21);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 50px 0 50px;
+}
+
+.how-does-inner {
+  max-width: 594px;
+  margin: 0 auto;
+}
+
+.does-list {
+  margin-bottom: 70px;
+  counter-reset: myCounter;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+.does-item::before {
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  background-color: rgb(0, 102, 255);
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.does-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.does-text-item {
+  max-width: 270px;
 }/*# sourceMappingURL=index.css.map */
