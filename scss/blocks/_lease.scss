@@ -1,0 +1,36 @@
+.lease-item-subtitle {
+    color: $black;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.lease-item-text {
+    color: $black;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.lease-item {
+    max-width: 270px;
+    text-align: center;
+}
+
+.lease-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.why-lease {
+    padding-top: 150px;
+}
+
+.lease-title {
+    margin-bottom: 50px;
+}
+
+.lease-img {
+    margin-bottom: 30px;
+}
