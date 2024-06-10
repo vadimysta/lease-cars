@@ -82,6 +82,27 @@ body {
   color: rgb(0, 102, 255);
 }
 
+@media (max-width: 1180px) {
+  .important-list {
+    gap: 20px;
+  }
+  .important-img {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .videos {
+    width: 100%;
+  }
+  .lease-img {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .lease, .lease-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .nav {
   color: rgb(255, 255, 255);
   font-weight: 700;
