@@ -6,6 +6,8 @@
 @import "./base/wrapper";
 @import "./base/title";
 @import "./base/section";
+@import "./base/btn";
+@import "./base/active";
 // blocks
 @import "./blocks/nav";
 @import "./blocks/header";
@@ -16,3 +18,7 @@
 @import "./blocks/does";
 @import "./blocks/video";
 @import "./blocks/important";
+
+// contact-blocks
+@import "./blocks/contacts/contact";
+@import "./blocks/contacts/blog";
