@@ -12,7 +12,7 @@
   outline: none; /* Убираем обводку */
 }
 
-button, img {
+button, img, a {
   cursor: pointer;
 }
 
@@ -589,4 +589,79 @@ body {
 
 .blog-img {
   margin-bottom: 30px;
+}
+
+.choose {
+  margin-top: 100px;
+}
+
+.choose-btn {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.choose-btn-nav {
+  width: 858px;
+  height: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 80px;
+  margin: 0 auto 100px;
+}
+
+.choose-title {
+  margin-bottom: 50px;
+}
+
+.choose-btn {
+  padding: 0px 0px;
+}
+
+.choose-card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(0, 102, 255);
+  max-width: 270px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.choose-card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.choose-card-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.choose-card-price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.choose-card-link {
+  color: rgb(0, 102, 255);
+  border: 1px solid rgb(0, 102, 255);
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.choose-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 40px;
 }/*# sourceMappingURL=index.css.map */
